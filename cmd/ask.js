@@ -6,7 +6,7 @@ module.exports = async (api, event, args) => {
   const question = args.join(" ");
 
   if (!question) {
-    return api.sendMessage("Veuillez poser une question après la commande DX.", event.threadID);
+    return api.sendMessage("Veuillez poser une question ✨.", event.threadID);
   }
 
   try {
